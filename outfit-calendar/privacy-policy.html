@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>今日の服 - プライバシーポリシー</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif;
+            background: #F6F4EF;
+            color: #3a3a3a;
+            line-height: 1.8;
+            padding: 32px 20px 64px;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        h1 { font-size: 1.5rem; color: #222; margin-bottom: 4px; }
+        .updated { font-size: 0.8rem; color: #999; margin-bottom: 28px; }
+        .lead {
+            background: #fff;
+            border-radius: 16px;
+            padding: 18px 20px;
+            margin: 20px 0 28px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+            font-weight: 600;
+        }
+        h2 { font-size: 1.05rem; color: #2F4A6B; margin: 28px 0 8px; }
+        ul { padding-left: 1.3em; }
+        a { color: #2E7BD6; }
+    </style>
+</head>
+<body>
+    <h1>今日の服 プライバシーポリシー</h1>
+    <p class="updated">最終更新日: 2026年11月25日</p>
+
+    <p class="lead">「今日の服」は、開発者本人だけが使う個人用のツールです。Google カレンダーの予定は、その日の服を選ぶためだけに使い、保存も第三者への提供もしません。</p>
+
+    <h2>Google アカウントから取得する情報</h2>
+    <p>利用者が許可した Google アカウントのカレンダーから、当日の予定（タイトル・時間・場所）を読み取ります。また、選んだ服を「今日の服」という予定としてカレンダーに書き込みます。求める権限は、予定の読み取りと書き込みだけです。</p>
+
+    <h2>情報の使い方</h2>
+    <ul>
+        <li>予定のタイトルと場所から、その日の場面（仕事・休日の外出・改まった場など）を判定します</li>
+        <li>予定の場所から、天気を調べる地点を決めます</li>
+        <li>これ以外の目的には使いません。広告や解析には使いません</li>
+    </ul>
+
+    <h2>外部サービスへの送信</h2>
+    <ul>
+        <li>国土地理院の住所検索：予定の場所に含まれる都道府県と市区町村の名前だけを送り、緯度・経度を調べます</li>
+        <li>Open-Meteo：緯度・経度を送り、天気予報を取得します</li>
+        <li>Anthropic（Claude API）：場面の種類、天気、服の候補を送り、1組を選ばせます。予定のタイトル・時間・場所は送りません</li>
+    </ul>
+    <p>Google から取得した情報を、上記以外の第三者に提供・販売することはありません。</p>
+
+    <h2>保存する情報</h2>
+    <p>カレンダーの予定そのものは保存しません。保存するのは、日ごとに選んだ服の組み合わせ、場面の種類、最高気温の記録だけで、同じ組み合わせが続かないようにするために使います。</p>
+
+    <h2>Google API の利用について</h2>
+    <p>本ツールによる Google API から受け取った情報の使用と他のアプリへの転送は、<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API サービスのユーザーデータに関するポリシー</a>（限定的な使用の要件を含む）に従います。</p>
+
+    <h2>許可の取り消し</h2>
+    <p>利用者は、<a href="https://myaccount.google.com/permissions">Google アカウントの設定</a>から、いつでも本ツールへの許可を取り消せます。</p>
+
+    <h2>ポリシーの変更</h2>
+    <p>本ポリシーを変更する場合は、このページで告知します。</p>
+
+    <h2>お問い合わせ</h2>
+    <p>本ポリシーに関するご質問は <a href="mailto:takumi.funasaka@gmail.com">takumi.funasaka@gmail.com</a> までお願いします。</p>
+</body>
+</html>
